@@ -1,0 +1,15 @@
+body { /* Se aplica directamente al elemento <body> */
+    color: rgb(33, 146, 150);
+    background-color: gold;
+    background: url("https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2021/06/vander-films-apvb8kmih5w-unsplash-scaled.jpeg?fit=1200%2C900&quality=60&strip=all&ssl=1");
+}
+
+h2 { /* Se aplica directamente a todos los elementos de tipo <h2> */
+    color: rgb(167, 164, 14);
+    background-color: blue;
+}
+
+/* Se aplica sólo en el elemento donde se use con el atributo `class` */
+.clase-css-tag {
+    color: rgb(143, 10, 66);
+}
